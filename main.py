@@ -16,7 +16,8 @@ def font_color(amount):
 
 def my_portfolio():
     # api_request = requests.get("https://api.coinmarketcap.com/v1/ticker/")
-    api_request = requests.get("https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=18812d3b-5416-458b-80f4-fc7d9bae347f")
+    
+    api_request = requests.get("https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=PASTE_YOUR_API_KEY_HERE") #PASTE_YOUR_API_KEY_HERE
     api = json.loads(api_request.content)
 
 
